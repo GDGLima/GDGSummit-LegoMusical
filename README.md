@@ -15,7 +15,7 @@ Sobre el proyecto
 Ejecutar
 -------------
 - Solo ejecutar node "(file).js"
-- Dentro del repositorio se encontrarar loas archivos js los cuales forman parte del paso a pasa en el proceso de desarrollo
+- Dentro del repositorio se encontrarar loas archivos js los cuales forman parte del paso a paso en el proceso de desarrollo
 
 Video DEMO
 -------------  
