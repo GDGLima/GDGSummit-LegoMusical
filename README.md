@@ -14,7 +14,7 @@ Sobre el proyecto
    
 Ejecutar
 -------------
-- Solo ejecutar node "(file).js"
+- Solo ejecutar "node [nombre de archivo js]". 
 - Dentro del repositorio se encontrarar loas archivos js los cuales forman parte del paso a paso en el proceso de desarrollo
 
 Video DEMO
