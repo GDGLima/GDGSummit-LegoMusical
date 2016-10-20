@@ -1,0 +1,25 @@
+{
+    "name": "GDGSummit-LegoMusical",
+    "private": false,
+    "version": "0.0.2",
+    "author": "Elvis Rivera <ecriverac@gmail.com>",
+    "description": "Proyecto que permite escuchar musica usando bloques Lego. En el desarrollo de este proyecto se aprendera a integrar NodeJs & Arduino & Firebase",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ecriverac/GDGSummit-LegoMusical.git"
+    },
+    "keywords": [
+        "Lego",
+        "bot",
+        "nodejs",
+        "firebase"
+    ],
+    "dependencies": {
+        "scale-number-range": "~1.0.3",
+        "express": "~4.14",
+        "johnny-five": "0.10.3"
+    },
+    "engines": {
+        "node": "~4.4.7"
+    }
+}
