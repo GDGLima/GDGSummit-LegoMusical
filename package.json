@@ -17,7 +17,8 @@
     "dependencies": {
         "scale-number-range": "~1.0.3",
         "express": "~4.14",
-        "johnny-five": "0.10.3"
+        "johnny-five": "0.10.3",
+        "firebase":"3.5.1"
     },
     "engines": {
         "node": "~4.4.7"
