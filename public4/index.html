@@ -5,9 +5,24 @@
   <title>Taller de Nodebots & Firebase</title>
   <script src="/socket.io/socket.io.js"></script>
   <script src="main.js"></script>
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+
+  <link rel="stylesheet" href="styles.css">
+
 </head>  
 <body>  
-  <h1>Piano Lego</h1>
-  <div id="messages"></div>
+  <h1>Lego Musical</h1>
+  <div class="opciones">Seleccione Instrumento Musical:</div>
+  <div>
+	  <select onchange="onChange(this)">
+	  	<option value="0">Percusión</option>
+	  	<option value="1">Guitarra Acústica</option>
+	  	<option value="2">Guitarra Eléctrica</option>
+	  	<option value="3">Synth Pluck</option>
+	  </select>
+  </div>
+  <div>
+  	<img id="imagegif" src="images/i0.gif" height="140px" width="auto">
+  </div>
 </body>  
 </html>  

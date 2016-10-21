@@ -21,9 +21,6 @@ io.on('connection', function(socket) {
 	socket.on('saludoDesdeCliente', function(data) {
 		console.log(data);
 	});
-
-
-
 });
 //
 
@@ -47,40 +44,21 @@ board.on("ready", function() {
 
   	setInterval(function(){
   		//scaneamos los valores maximos usando el color blanco y usamos ese valor le agregamos 10
-  		if(indexSecuencia<4){
-  			var valorMaximo=0;
-	  		switch(indexSecuencia){
-	  			case 0:
-	  				//console.log('0 '+arValores[indexSecuencia]);
-	  				valorMaximo=57;
-	  			break;
-	  			case 1:
-	  				//console.log('1 '+arValores[indexSecuencia]);
-	  				valorMaximo=92;
-	  			break;
-	  			case 2:
-	  				//console.log('2 '+arValores[indexSecuencia]);
-	  				valorMaximo=98;
-	  			break;
-	  			case 3:
-	  				//console.log('3 '+arValores[indexSecuencia]);
-	  				valorMaximo=43;
-	  			break;
-	  		}
-	  		console.log('-'+indexSecuencia);
-		
-  			var intensidad=( Math.round(scale(arValores[indexSecuencia], 0, valorMaximo, 0, 10)) ) - 2;
-  			if(intensidad>10) intensidad=10;
+  		if(indexSecuencia<4){		
+  			var intensidad=( Math.round(scale(arValores[indexSecuencia], 0, 70, 0, 6)) ) ;
+  			if(intensidad>6) intensidad=6;
   			if(intensidad<0) intensidad=0;
   			var nota=((intensidad)*7)+indexSecuencia;
   			console.log(nota);
-  			socketIO.emit('playNota', nota);
+			if(arValores[indexSecuencia]>arValoresIniciales[indexSecuencia]){
+				socketIO.emit('playNota', nota);
+			}
 	  		//piezo.frequency((arValores[indexSecuencia]*5)+(140*indexSecuencia), 700);
   		}
   		indexSecuencia++;
 		if(indexSecuencia>4) indexSecuencia=0;
 
-  	},1000);  	
+  	},600);  	
 });
 
 

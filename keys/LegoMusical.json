@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "legomusical-80311",
+  "private_key_id": "28a8e092e2e104375da8f912d458878f06f27d5d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDtcyxkur/N/wzO\njULYwYanCyioD1/Ge8Yqkvx4WKHWqsUNFO91c7oZTUysBlJICYq+wx1Ph3HX/Qi1\n2ZIcgJU4MrUr+jVBEpjb+OEDWHdOenDWv1ikr6sK/pOBhQgh5AO2iK9SgdhM+8ko\nl19/kuJdpA1k4MzMTqroiyBE+IajQkAC/c3iq9OWgbHgRLsRqe9vln94ZLDyV/7n\nq185JiGj5xvXw6KoW2qL6nqsLAgeA4Ue2FZj8ptZDLhoP3CmoKTqFBSZCRdGQz07\nbhnbCRtwODij2HNHpiz/bbKb1kAh0X7rBEzvSYYFXv8uyGbyvmaDnGVhQ5o66f75\nmdHZIdiFAgMBAAECggEAStB0F1TD5DrNJTNa8YKgU3dvmuwlKBuNh5KCW8TJUSLD\nLWkAPch1xU0WsEjZmfrvrUU6sfkiBISkPu/LWpGk8mz/qliOeO9MHFrhQrWX+bEY\nZoEpg9IZmUA256Mrucnm5ZdRbjSdGzxl2BVBsKduDUUIN1WhEWpj7RsQ0spfWYaF\n17fPLm0JOu0x1L/LybkKmMxihpU/ynLcfLyQeslJhBWez1US5Im9uX2bC8kmWodZ\njZA/Dgo7RoWY1vZvWITEsmqxtU1MJmf7Q8pEu+BTf22jnZBpixrUIvDwxZVOnWBV\nvNqVyFP+xIjL6aDYA6p/ooXRI0RUrabe58NmMKqagQKBgQD4lS4B5oMUS30zoc0i\nK+iEObKD7BmEi7N1R5bTduDp4yQ1Rc0JauKZVFOGDLqk1hrN/Nma79+BF8HjXCzo\n0xwDF6FjnW4mc7O42c0Ge1hORYqagy8UD4j+mpuLXm6OKhKnhjYmYo+PUeLAoKKC\nyDrsZr/lJY0SU0Wk6ic6QWjeoQKBgQD0iPRfCyUxgEXU/csDwlmPMMuazyg+l5Sr\nWh6Sr1Ez3i3rO3dL2Jvcvn9Ods0Ed6GmmGhtZNvtzMryDQLeU1Y/6kivt+OSvXVG\neFj6AZ291XRqB6riFTW5xYWgOPQMCnqguuDjVJrU9d40lQ55+TbH+FHZa9XGFFqK\nmhMq7RIjZQKBgE/tJ23VADB2VTtUuvBRzeE17AAe2dWUVY9QBV7YylhpgCrg1pxA\nkbtbMb/YN+roLJYuxojat7J6QQ0phgcWWdtkra+p3tDeQtscrJ946VvBYF9t7qU0\nmYfDjl+xbTqorHbQ4HhXGHGskov9GkOSvd9k6i5zdHh/7dSotRQ2E9IBAoGAOFxM\nfo9yDhuzfKjWHtKvk6o6cz7l1q9XK7tEqqhPvfWqfboh/9A39EPP0cTd8fakwmIE\nR5pkekWmTO2kyJtKmMal5CItCIg0PH7GezDeK3/EKiAEScF7tYqKBui5jwDnTJ5l\n8N9yJD1a7qGgSYqgDqz0KHmLNvFAAQwL+OvVL2UCgYEAx++5Wd8JcUdWLfLeuoa4\nBbInMiN1yCMLTkiDh3clJapwI8+WEK7g23j3S5YuvldOSarVpTQNKU+HJZFOFnGK\n8Rwt8VNN5QzHjq2mbIHxgP1q730jkkiCAUfjZxJXpUGvw+eu5SU07WYzpGDVOpGS\nGx+Sdp3ddZtr9Yywno/SXn8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "legomusical-80311@appspot.gserviceaccount.com",
+  "client_id": "101980934185792807931",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/legomusical-80311%40appspot.gserviceaccount.com"
+}
