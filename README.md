@@ -5,7 +5,8 @@ Pre-requisitos
 - node.js
 - npm
 - Ejecutar `npm install` para instalar la lista de dependencias de `package.json`
-
+- Firebase tools para subir web a firebase
+install -g firebase-tools
 
 Sobre el proyecto
 -------------
@@ -16,6 +17,14 @@ Ejecutar
 -------------
 - Solo ejecutar "node [nombre de archivo js]". 
 - Dentro del repositorio se encontrarar loas archivos js los cuales forman parte del paso a paso en el proceso de desarrollo
+
+Firebase Notas
+-------------
+https://docs.google.com/document/d/1N_Gn0HweBLEQYuylvkLhYRYt9O-okCDbkwXNIfCV7V0/edit
+
+Firebase Web
+-------------
+https://legomusical-80311.firebaseapp.com/
 
 Video DEMO
 -------------  
